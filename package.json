@@ -1,0 +1,22 @@
+{
+  "name": "klimenkov.dev",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.html",
+  "repository": "https://github.com/klimenkoff9/klimenkov-dev.git",
+  "author": "Dennis Klimenkov <dennis.klimenkov9@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "live-server && tailwindcss -o styles.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "live-server": "^1.2.1",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "prettier": "2.6.1"
+  }
+}
